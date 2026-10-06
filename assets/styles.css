@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
 :root{--pink:#ff1598;--pink2:#ff58bb;--aqua:#16d8e6;--blue:#25baf4;--purple:#8d55f7;--yellow:#ffd33d;--lime:#66e46d;--ink:#17121a;--paper:#fff;--soft:#fff7fc;--shadow:0 14px 34px rgba(98,38,102,.16);--r:28px}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;color:var(--ink);background:#fff;font-family:"Arial Rounded MT Bold","Trebuchet MS",Arial,sans-serif;line-height:1.45;overflow-x:hidden}a{color:inherit}.wrap{width:min(1180px,92vw);margin:auto}.section{padding:74px 0;position:relative}.soft{background:linear-gradient(180deg,#fff7fc,#f2fdff)}
 header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.97);box-shadow:0 2px 16px rgba(40,0,40,.08)}.nav{min-height:84px;display:flex;align-items:center;gap:20px}.logo{width:285px;max-width:36vw;height:76px;object-fit:contain;object-position:left center}.navlinks{display:flex;align-items:center;gap:18px;margin-left:auto}.navlinks a{text-decoration:none;font-size:14px;font-weight:900}.navlinks a:hover{color:var(--pink)}.book,.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;border:0;border-radius:999px;padding:14px 23px;font-weight:1000;cursor:pointer;box-shadow:0 8px 18px rgba(255,21,152,.18)}.book,.pinkbtn{background:linear-gradient(135deg,#ff51b7,#ff058f);color:white}.aquabtn{background:linear-gradient(135deg,#25dfeb,#14b8db);color:#fff}.purplebtn{background:linear-gradient(135deg,#b16cff,#7c45ec);color:#fff}.menu{display:none;margin-left:auto;border:0;background:#fff;font-size:30px}.drips{height:38px;background:linear-gradient(90deg,#ff48af,#ffdd45,#56e9b1,#20d9eb,#a25df8,#ff49ad);clip-path:polygon(0 0,100% 0,100% 45%,98% 45%,97% 92%,95% 45%,91% 45%,90% 70%,88% 45%,84% 45%,83% 100%,81% 45%,76% 45%,75% 78%,73% 45%,68% 45%,67% 92%,65% 45%,60% 45%,59% 72%,57% 45%,52% 45%,51% 100%,49% 45%,44% 45%,43% 75%,41% 45%,36% 45%,35% 94%,33% 45%,28% 45%,27% 73%,25% 45%,20% 45%,19% 100%,17% 45%,12% 45%,11% 75%,9% 45%,4% 45%,3% 90%,1% 45%,0 45%)}
@@ -27,3 +27,23 @@ a,button,input,select,textarea{touch-action:manipulation}a:focus-visible,button:
 @media(min-width:981px) and (max-width:1200px){.logo{width:210px}.navlinks{gap:8px}.navlinks a{font-size:12px}.nav>.book{padding:12px 15px}}
 
 .page-title{font-size:clamp(40px,5vw,66px);letter-spacing:-2px;line-height:1.02}@media(max-width:650px){.page-title{font-size:42px;overflow-wrap:normal}}
+/* Bubblegum Sans throughout the website */
+body {
+  font-size: 18px;
+  font-synthesis: none;
+}
+
+body, body * {
+  font-family: 'Bubblegum Sans', 'Trebuchet MS', sans-serif !important;
+  font-weight: 400 !important;
+}
+
+h1, h2, h3, .page-title {
+  letter-spacing: 0;
+  line-height: 1.12;
+  overflow-wrap: break-word;
+}
+
+.price {
+  letter-spacing: 0;
+}
